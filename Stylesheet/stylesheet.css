@@ -18,7 +18,6 @@ body {
 	background-repeat: repeat);
 	background-size: 200px;
 	animation: bg-animate 30s linear infinite;
-	overflow: hidden;
 }
 
 firstPage {
@@ -208,4 +207,8 @@ h3 {
 
 #stg {
 	pointer-events: none;
+}
+
+#skip {
+	display: none;
 }
