@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>AVAER.com</title>
+	<link rel="stylesheet" href="Stylesheet/stylesheet.css">
+	<link rel="icon" type="Images/png" href="Images/favicon.png">
+</head>
+
+<body>
+	<div id="firstPage">
+		<h1 id="heading">A Very Annoying Escape Room.com</h1>
+		<h3>In this website (you guessed it) you do annoying puzzles. They are all button related. There are 6 puzzles. Good luck!</h3>
+		<p id='warning'><strong>WARNING!</strong> Refreshing the page at <em>any</em> point will lose your progress! (It's part of the experience). It is recommended you use a mouse for this game.</p>
+		<button id="start" class="Button">Start!</button><br>
+		<button id="skip" class="Button">REMOVE ME</button>
+	</div>
+	
+	<div id="secondPage" class="hidden">
+		<h2 id="subHeading">Puzzle 1</h2>
+		<h3>Click the magic button. You have a 10% chance of moving on each time you click it.</h3>
+		<button class='Button' id='Button'>Button</button>
+	</div>
+	
+	<div id="thirdPage" class="hidden">
+		<h2 id="subHeading">Puzzle 2</h2>
+		<h3>Find the button.</h3>
+		<button id="hiddenButton"></button>
+	</div>
+	
+	<div id="fourthPage" class="hidden">
+		<h2 id="subHeading">Puzzle 3</h2>
+		<h3>Click the button when the smily face (:D) appears!</h2>
+		<button class='Button' id="textButton">I change!</button>
+	</div>
+	
+	<div id="fifthPage" class="hidden">
+		<h2 id="subHeading">Puzzle 4</h2>
+		<h3>Click the button! (Not clickbait)</h3>
+		<button id="moveButton">Clique</button>
+	</div>
+	
+	<div id="sixthPage" class="hidden">
+		<h2 id="subHeading">Puzzle 5</h2>
+		<h3>Solve the equation for x: 5 + 10(x + 3) = 5</h3>
+		<button id="correct" class="overflowButton">x = -3</button>
+		<button id="incorrect" class="overflowButton">x = -5</button><br>
+		<h2 id="demo"></h2>
+		<button id="startOver" class="hidden">Start Over</button>
+		<button id="startOver2" class="hidden Button">Start Over</button>
+		<button id="nextPuzzle" class="hidden Button">Next Puzzle</button>
+	</div>
+	
+	<div id="seventhPage" class="hidden">
+		<h2 id="subHeading">Puzzle 6</h2>
+		<h3>Defeat the Final Boss Of All Buttons (FBOAL).</h3>
+		<h1>Boss Health: <span id="health">30</span></h1>
+		<h1>Shield Durability: <span id="shield">5</span></h1>
+		<h5 id="stg"></h5>
+		<button id="finalBoss">Final Boss</button> 
+	</div>
+	
+	<div id="eighthPage" class="hidden">
+		<h1 id="heading">Congratulations!</h2>
+		<h3>You did it! You beat A Very Annoying Escape Room.com! Your reward is asbolutely nothing! Good job!</h3>
+		<img src="Images/congrats.png" alt="Congratulations!" id="congrats">
+	</div>
+	
+	<script src="Javascript/javascript.js"></script>
+</body>
+
+</html>
