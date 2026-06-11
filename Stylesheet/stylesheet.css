@@ -1,0 +1,211 @@
+@keyframes bg-animate {
+  0% {
+    background-position: -200px -200px;
+  }
+  100% {
+    background-position: 200px 200px;
+  }
+}
+
+body {
+	color: rgb(150, 125, 125);
+	background-color: rgb(75, 50, 50);
+	font-family: 'Arial';
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-image: url('scrolling_bg2.png'); 
+	background-repeat: repeat);
+	background-size: 200px;
+	animation: bg-animate 30s linear infinite;
+	overflow: hidden;
+}
+
+firstPage {
+	color: ;
+}
+
+#heading {
+	font-size: 3em;
+	margin-top: 90px;
+	pointer-events: none;
+}
+
+#subHeading {
+	font-size: 2em;
+	pointer-events: none;
+}
+
+h3 {
+	font-weight: normal;
+	pointer-events: none;
+}
+
+#start { 
+	background-color: rgb(150, 125, 125);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	margin-top: 100px;
+}
+
+#start:active { 
+	background-color: rgb(100, 75, 75);
+}
+
+.hidden {
+	display: none;
+}
+
+#pg2_input {
+	height: 50%;
+	width: 70%;
+	font-size: 4em;
+	text-align: center;
+	background-color: rgb(200, 200, 200);
+	border: 12px solid rgb(150, 125, 125);
+	position: center;
+}
+
+#secondPage {
+	
+}
+
+.Button {
+	background-color: rgb(150, 125, 125);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	margin-top: 45%;
+	cursor: pointer;
+}
+
+.Button:active { 
+	background-color: rgb(100, 75, 75);
+}
+
+#hiddenButton {
+	background-color: rgb(75, 50, 50);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+}
+
+#hiddenButton:hover {
+	background-color: rgb(150, 125, 125);	
+	cursor: pointer;
+}
+
+#hiddenButton:active { 
+	background-color: rgb(100, 75, 75);
+}
+
+.165-buttons {
+	display: flex; 
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+#moveButton {
+	background-color: rgb(150, 125, 125);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#moveButton:active {
+	background-color: rgb(100, 75, 75);
+}
+
+#fourthPage {
+	position: relative;
+	width: vw;
+	height: vh;
+}
+
+#warning {
+	color: #ffffff;
+}
+
+.overflowButton {
+	background-color: rgb(150, 125, 125);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	margin: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.overflowButton:active { 
+	background-color: rgb(100, 75, 75);
+}
+
+#demo {
+	font-weight: normal;
+}
+
+#startOver {
+	background-color: rgb(150, 125, 125);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	margin-top: 45%;
+	cursor: pointer;
+}
+
+#startOver:active {
+	background-color: rgb(100, 75, 75);
+}
+
+#finalBoss {
+	background-color: rgba(255 225 87/0.5);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#finalBoss:active {
+	background-color: rgb(200, 175, 175);
+}
+
+#health {
+	color: rgb(150, 125, 125);
+}
+
+#congrats {
+	width: 600px;
+	border-radius: 10px;
+}
+
+#stg {
+	pointer-events: none;
+}
